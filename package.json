@@ -1,0 +1,10 @@
+{
+  "name": "driver",
+  "version": "1.0.0",
+  "main": "index.html",
+  "author": "amal amal <chebilamal820@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "bootstrap": "^4.6.0"
+  }
+}

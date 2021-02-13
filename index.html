@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Drive test</title>
+    <link
+      rel="stylesheet"
+      href="node_modules/bootstrap/dist/css/bootstrap.min.css"
+    />
+    <link href="main.css" rel="stylesheet" type="text/css" />
+  </head>
+  <body>
+    <div class="container-fluid">
+      <div class="row">
+        <div class="col-md-7 col-sm-12 p-5">
+          <form>
+            <div class="form-group">
+              <h1>TEST DRIVER INFO :</h1>
+              <label for="name">name</label>
+              <input id="inputname" type="name" class="form-control" />
+            </div>
+            <div class="form-group">
+              <label for="age">age</label>
+              <input id="inputage" type="age" class="form-control" />
+            </div>
+            <div class="form-group">
+              <label>license age</label>
+              <input id="licenseagei" class="form-control" />
+            </div>
+            <select id="inputgender" class="form-control">
+              <option value="female">Femmale</option>
+              <option value="male">male</option>
+            </select>
+
+            <button id="resetbtn" type="reset" class="btn btn-danger">
+              Reset
+            </button>
+            <button id="submitbtn" type="button" class="btn btn-success">
+              Submit
+            </button>
+          </form>
+        </div>
+        <div class="col-md-5 col-sm-12 screen p-5">
+          <h3>Name</h3>
+          <p id="Rname" class="test-bold"></p>
+          <h3>age</h3>
+          <p id="Rage" class="test-bold"></p>
+          <h3>gender</h3>
+          <p id="Rgender" class="test-bold"></p>
+
+          <h3>license age</h3>
+          <p id="rlicense" class="test-bold"></p>
+
+          <h3 id="result" class="test-bold"></h3>
+          <p id="result "></p>
+        </div>
+      </div>
+    </div>
+  </body>
+  <script src="main.js"></script>
+</html>
